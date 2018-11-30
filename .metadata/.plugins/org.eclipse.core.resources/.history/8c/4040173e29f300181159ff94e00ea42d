@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+/**00000
+ * @author hnetla8053 Date: 11/26/18
+ * 
+ *         Tells you what to do based on a wave height
+ */
+public class SurfsUp3 {
+	public static void main(String[] args) {
+		double height;
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("Enter a wave height: ");
+		height = scanner.nextDouble();
+		
+		if(height)
+	}
+}

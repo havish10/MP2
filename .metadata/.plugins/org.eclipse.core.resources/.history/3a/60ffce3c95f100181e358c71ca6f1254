@@ -1,0 +1,9 @@
+/**
+ * @author hnetla8053
+ * Date: 11/26/18
+ * 
+ * Calculates circle circumfrence with fail safe
+ */
+public class CircleCircumfrence {
+
+}

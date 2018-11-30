@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+/**
+ * @author hnetla8053 Date: 11/20/18
+ * 
+ *         This program provides the rating for hurricanes
+ *
+ */
+public class Hurricane {
+	public static void main(String[] args) {
+		int scale = 0;
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("Enter the intensity of the storm: ");
+		scale = scanner.nextInt();
+
+		switch (scale) {
+		case 1:
+			
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+			default:
+
+		}
+	}
+}
