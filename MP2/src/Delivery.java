@@ -15,9 +15,11 @@ public class Delivery {
 		d1 = scanner.nextDouble();
 		
 		System.out.print("Enter Second Dimension \n");
-		d1 = scanner.nextDouble();
+		d2 = scanner.nextDouble();
 		
 		System.out.print("Enter First Dimension \n");
-		d1 = scanner.nextDouble();
+		d3 = scanner.nextDouble();
+		
+		scanner.close();
 	}
 }
