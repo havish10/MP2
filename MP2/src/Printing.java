@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Printing {
 	public static void main(String[] args) {
 		int copies = 0;
-		double ppc = 0;   //asdasdasdasdasdasdasdasd
+		double ppc = 0;   
 		Scanner scanner = new Scanner(System.in);
 		NumberFormat formatter = NumberFormat.getCurrencyInstance();
 		
