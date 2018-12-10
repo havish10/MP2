@@ -1,17 +1,17 @@
-\.metadata
-bin\
-tmp\
+.metadata/
+bin/
+tmp/
 *.tmp
 *.bak
 *.swp
 *~.nib
 local.properties
-.settings\
+.settings/
 .loadpath
 .recommenders
 
 # External tool builders
-.externalToolBuilders\
+.externalToolBuilders/
 
 # Locally stored "Eclipse launch configurations"
 *.launch
@@ -19,7 +19,7 @@ local.properties
 # PyDev specific (Python IDE for Eclipse)
 *.pydevproject
 
-# CDT-specific (C\C++ Development Tooling)
+# CDT-specific (C/C++ Development Tooling)
 .cproject
 
 # CDT- autotools
@@ -44,10 +44,10 @@ local.properties
 .springBeans
 
 # Code Recommenders
-.recommenders\
+.recommenders/
 
 # Annotation Processing
-.apt_generated\
+.apt_generated/
 
 # Scala IDE specific (Scala & Java development for Eclipse)
 .cache-main
