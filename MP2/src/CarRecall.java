@@ -39,7 +39,7 @@ public class CarRecall {
 		default:
 			System.out.print("Your car is fine but still buy a Tesla Roadster");
 		}
-		
+
 		scanner.close();
 	}
 }
