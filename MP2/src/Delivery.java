@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * @author hnetla8053 Date: 12/10/18
  * 
- * 
+ * This program tells wether the package is the right size
  *
  */
 public class Delivery {
