@@ -17,32 +17,32 @@ public class Egg {
         eggs = scanner.nextInt();
         
         if (eggs < 48) {
-            double pd = 0.5;
-            double x = eggs / 12 * pd;
-            double y = eggs % 12 * (pd / 12);
+            double pricePerDozen = 0.5;
+            double wholePrice = eggs / 12 * pricePerDozen;
+            double leftoverPrice = eggs % 12 * (pricePerDozen / 12);
 
-            price = y + x;
+            price = leftoverPrice + wholePrice;
         } else if (eggs < 72) {
-            double pd = 0.45;
-            double x = eggs / 12 * pd;
-            double y = eggs % 12 * (pd / 12);
+            double pricePerDozen = 0.45;
+            double wholePrice = eggs / 12 * pricePerDozen;
+            double leftoverPrice = eggs % 12 * (pricePerDozen / 12);
 
-            price = y + x;
+            price = leftoverPrice + wholePrice;
         } else if (eggs < 11 * 12) {
-            double pd = 0.4;
-            double x = eggs / 12 * pd;
-            double y = eggs % 12 * (pd / 12);
+            double pricePerDozen = 0.4;
+            double wholePrice = eggs / 12 * pricePerDozen;
+            double leftoverPrice = eggs % 12 * (pricePerDozen / 12);
 
-            price = y + x;
+            price = leftoverPrice + wholePrice;
         } else if (eggs > 11 * 12) {
-            double pd = 0.35;
-            double x = eggs / 12 * pd;
-            double y = eggs % 12 * (pd / 12);
+            double pricePerDozen = 0.35;
+            double wholePrice = eggs / 12 * pricePerDozen;
+            double leftoverPrice = eggs % 12 * (pricePerDozen / 12);
 
-            price = y + x;
+            price = leftoverPrice + wholePrice;
         } 
         
         System.out.println(formatter.format(price));
-
+        scanner.close();
     }
 }   
