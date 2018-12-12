@@ -5,6 +5,7 @@ import java.util.Scanner;
  * @author: hnetla8053 Date; 12/11/18
  * 
  *          This program calcs the pirice of your egg
+ *          I made this today
  */
 public class Egg {
     public static void main(String[] args) {
