@@ -36,5 +36,7 @@ public class Volumes {
 		s = scanner.nextDouble();
 
 		System.out.print("The volume is " + Math.pow(s, 3));
+		
+		scanner.close();
 	}
 }

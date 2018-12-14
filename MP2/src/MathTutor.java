@@ -40,6 +40,6 @@ public class MathTutor {
 		} else {
 			System.out.println("Wrong");
 		}
-
+		scanner.close();
 	}
 }
