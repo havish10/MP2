@@ -19,6 +19,7 @@ public class PerfectSquare {
 		} else {
 			System.out.println("Not a perfect Square");	
 		}
-
+		
+		scanner.close();
 	}
 }
