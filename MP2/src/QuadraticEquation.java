@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * @author netla Date: 12/13/18
+ * 
+ * Finds roots of a quad function
+ *
+ */
 public class QuadraticEquation {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
