@@ -16,10 +16,10 @@ public class CarRecall {
 
 		switch (model) {
 		case 119:
-			System.out.print("Your car is defective, buy a Tesla Roadster");
+			System.out.print("Your car is defective");
 			break;
 		case 179:
-			System.out.print("Your car is defective, buy a Tesla Roadster");
+			System.out.print("Your car is defective");
 			break;
 		case 189:
 		case 190:
@@ -28,16 +28,16 @@ public class CarRecall {
 		case 193:
 		case 194:
 		case 195:
-			System.out.print("Your car is defective, buy a Tesla Roadster");
+			System.out.print("Your car is defective");
 			break;
 		case 221:
-			System.out.print("Your car is defective, buy a Tesla Roadster");
+			System.out.print("Your car is defective");
 			break;
 		case 780:
-			System.out.print("Your car is defective, buy a Tesla Roadster");
+			System.out.print("Your car is defective");
 			break;
 		default:
-			System.out.print("Your car is fine but still buy a Tesla Roadster");
+			System.out.print("Your car is fine");
 		}
 
 		scanner.close();
