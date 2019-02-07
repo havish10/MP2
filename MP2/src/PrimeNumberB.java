@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * finds the prime factors
+ * finds prime numbers between two numbers
  * 
  * @author hnetla8053
  *
@@ -9,21 +9,30 @@ import java.util.Scanner;
 public class PrimeNumberB {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int counter = 2;
-		int num = 0;
-		
-		System.out.println("Enter a number: ");
-		num = scanner.nextInt();
-		
-		while(counter <= num) {
-			if(num % counter == 0) {
-				System.out.println(counter);
-				num /= counter;
-			} else {
-				counter += 1;
-			}
-		}
-		scanner.close();
+        int low = 0, high = 0;
 
-	}
+		System.out.print("Enter a min: ");
+		low = scanner.nextInt();
+		System.out.print("Enter a max: ");
+		high = scanner.nextInt();
+		
+
+		while (low < high) {
+            boolean flag = false;
+			
+			int i = 2;
+            while(i <= low / 2) {
+				if(low % i == 0) {
+					flag = true;
+					break;
+				}
+				++i;
+			}
+
+            if (!flag)
+                System.out.print(low + " ");
+
+            ++low;
+        }
+    }
 }
