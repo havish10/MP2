@@ -23,6 +23,7 @@ public class Prompter {
 			System.out.print("Enter a value between " + min + " and " + max + ": ");
 			guess = scanner.nextInt();
 		}
+		System.out.print("Thats Correct!");
 		scanner.close();
 	}
 }

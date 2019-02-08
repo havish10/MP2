@@ -34,5 +34,6 @@ public class PrimeNumberB {
 
             ++low;
         }
+		scanner.close();
     }
 }
